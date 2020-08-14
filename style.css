@@ -1,0 +1,216 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+body {
+	background-color: #fff;
+}
+.info {
+	margin: 1rem 0;
+	padding: 0;
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+		0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+		0 100px 80px rgba(0, 0, 0, 0.12);
+	border-radius: 5px;
+}
+.info .avatar {
+	background-image: url("https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.0-9/73219335_1023856171339783_6034211635340509184_o.jpg?_nc_cat=102&_nc_sid=e3f864&_nc_ohc=qRvkw9Qj6hgAX8-gbbq&_nc_ht=scontent.fsgn2-5.fna&oh=64d61a1a96fc6646ea56e46164a8f62d&oe=5F5CAFF2");
+	height: 17rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.info .avatar p {
+	font-size: 1.5rem;
+	color: #fff;
+	font-weight: bold;
+	margin: 1rem;
+}
+.background {
+	margin: 1rem;
+	border-bottom: 1px solid #ffd5cd;
+}
+.background .item {
+	margin: 10px;
+	font-size: 1rem;
+}
+.background .item p {
+	display: inline;
+	color: #c3aed6;
+}
+.background .item svg {
+	font-size: 1.5rem;
+	margin-right: 1.5rem;
+	color: #efbbcf;
+}
+.skill {
+	margin: 1rem;
+}
+.skill .title {
+	font-size: 1.3rem;
+}
+.skill .title svg {
+	color: #efbbcf;
+	margin-right: 1.5rem;
+}
+.skill .title p {
+	font-weight: bolder;
+	display: inline;
+	color: #c3aed6;
+}
+.skill .itemSkill {
+	margin-bottom: 1rem;
+}
+.skill .itemSkill .progessing {
+	height: 1.6rem;
+	background-color: #f1f1f1;
+	border-radius: 100px;
+}
+.skill .itemSkill p {
+	color: #c3aed6;
+	font-size: 1rem;
+}
+.skill .itemSkill .progessing .finish90 {
+	height: 100%;
+	width: 90%;
+	background-color: #efbbcf;
+	border-radius: 100px;
+}
+.skill .itemSkill .progessing .finish80 {
+	height: 100%;
+	width: 80%;
+	background-color: #efbbcf;
+	border-radius: 100px;
+}
+.skill .itemSkill .progessing .finish75 {
+	height: 100%;
+	width: 75%;
+	background-color: #efbbcf;
+	border-radius: 100px;
+}
+.skill .itemSkill .progessing .finish50 {
+	height: 100%;
+	width: 50%;
+	background-color: #efbbcf;
+	border-radius: 100px;
+}
+.skill .itemSkill .progessing p {
+	text-align: center;
+	color: #fff;
+}
+.language {
+	margin: 1rem;
+	margin-top: 2rem;
+}
+.language .title {
+	font-size: 1.3rem;
+}
+.language .title svg {
+	color: #efbbcf;
+	margin-right: 1.5rem;
+}
+.language .title p {
+	font-weight: bolder;
+	display: inline;
+	color: #c3aed6;
+}
+.language .itemLanguage {
+	margin-bottom: 1rem;
+}
+.language .itemLanguage p {
+	color: #c3aed6;
+	font-size: 1rem;
+}
+.language .itemLanguage .progessing {
+	height: 1.6rem;
+	background-color: #f1f1f1;
+	border-radius: 100px;
+}
+.language .itemLanguage .progessing .finish100 {
+	height: 100%;
+	width: 100%;
+	background-color: #efbbcf;
+	border-radius: 100px;
+}
+.language .itemLanguage .progessing .finish60 {
+	height: 100%;
+	width: 60%;
+	background-color: #efbbcf;
+	border-radius: 100px;
+}
+.language .itemLanguage .progessing .finish40 {
+	height: 100%;
+	width: 40%;
+	background-color: #efbbcf;
+	border-radius: 100px;
+}
+.col-8 {
+	flex: 0 0 65%;
+	max-width: 65%;
+}
+.experience {
+}
+.workExperience {
+	margin: 1rem 0;
+	padding: 1rem 1rem;
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+		0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+		0 100px 80px rgba(0, 0, 0, 0.12);
+	border-radius: 5px;
+}
+.experience .title {
+	font-size: 2rem;
+	color: #efbbcf;
+}
+.experience .title h1 {
+	margin: 1.5rem 0;
+	color: #8675a9;
+	display: inline;
+	margin-left: 1.5rem;
+}
+.experience .listWork {
+	list-style: none;
+}
+.experience .listWork .item {
+	padding: 10px 0;
+	border-bottom: 1px solid #ffd5cd;
+	margin-top: 10px;
+}
+.experience .listWork li:last-child {
+	border: none;
+}
+.experience .listWork .item h5 {
+	font-weight: bolder;
+	color: #c3aed6;
+}
+.experience .listWork .item .date {
+	color: #efbbcf;
+	margin: 10px 0;
+}
+.experience .listWork .item .date svg {
+	margin-right: 1.5rem;
+}
+.experience .listWork .item .date #highlight {
+	background-color: #efbbcf;
+	color: #fff;
+	padding: 0 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+}
+.experience .listWork .item .date #normal {
+	margin-left: 5px;
+}
+.experience .listWork .item .content {
+	color: #8675a9;
+}
+.education {
+	margin: 1rem 0;
+	padding: 1rem 1rem;
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+		0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+		0 100px 80px rgba(0, 0, 0, 0.12);
+	border-radius: 5px;
+	background-color: #fff;
+}
